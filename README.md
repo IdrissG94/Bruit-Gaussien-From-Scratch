@@ -18,7 +18,7 @@ Ce projet en Python permet de générer et d'appliquer un **bruit gaussien addit
 Toutes les bibliothèques requises ainsi que leurs versions sont listées dans le fichier [`requirements.txt`](requirements.txt).  
 Pour les installer en une seule fois, exécute :
 
-bash
+bash  
 pip install -r requirements.txt
 
 ## Projet :
