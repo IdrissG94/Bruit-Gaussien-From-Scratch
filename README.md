@@ -15,13 +15,13 @@ Ce projet en Python permet de générer et d'appliquer un **bruit gaussien addit
 ## Projet :
 
 # Détails Mathématiques & Algorithmiques
-Méthode de Box-Muller
+Méthode de Box-Muller :  
 Si $U_1, U_2 \sim \mathcal{U}(0, 1)$ sont deux variables aléatoires indépendantes uniformes, alors les variables $Z_0$ et $Z_1$ définies par :  
 $$Z_0 = \sigma \sqrt{-2 \ln(U_1)} \cos(2\pi U_2)$$  
 $$Z_1 = \sigma \sqrt{-2 \ln(U_1)} \sin(2\pi U_2)$$  
 suivent de manière indépendante une loi normale $\mathcal{N}(0, \sigma^2)$.
 
-Traitement d'Image  
+Traitement d'Image :  
 - L'image $I$ est convertie en float32 et normalisée dans $[0, 1]$.
 - La matrice de bruit $B$ est ajoutée : $I_{\text{bruitée}} = I + B$.
 - Les valeurs sont écrêtées dans $[0, 1]$ pour éviter les dépassements de dynamique.
