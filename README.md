@@ -12,6 +12,15 @@ Ce projet en Python permet de générer et d'appliquer un **bruit gaussien addit
 * **Bruitage & Normalisation** : Ajout du bruit à l'image, écrêtage (`clip`) dans l'intervalle $[0, 255]$ et sauvegarde du résultat.
 * **Boucle Interactive** : Test dynamique de plusieurs valeurs de $\sigma$ sur une même image.
 
+## Installation et Utilisation
+
+### 1. Installation des dépendances
+Toutes les bibliothèques requises ainsi que leurs versions sont listées dans le fichier [`requirements.txt`](requirements.txt).  
+Pour les installer en une seule fois, exécute :
+
+bash
+pip install -r requirements.txt
+
 ## Projet :
 
 # Détails Mathématiques & Algorithmiques
