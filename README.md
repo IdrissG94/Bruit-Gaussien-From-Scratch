@@ -21,6 +21,11 @@ Pour les installer en une seule fois, exécute :
 bash  
 pip install -r requirements.txt
 
+### Utilisation
+Script interactif : Lance main.py pour tester le bruitage sur tes propres images via la console.
+
+Notebook de démonstration : Ouvre tests.ipynb pour visualiser les tests, afficher les histogrammes de validation et comparer les images côte à côte.
+
 ## Projet :
 
 # Détails Mathématiques & Algorithmiques
