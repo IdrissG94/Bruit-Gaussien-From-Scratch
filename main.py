@@ -9,7 +9,7 @@ img = Image.open(nom).convert("RGB")
 # Conversion en array Numpy de taille (H,W,3)
 
 img_array = np.array(img)
-
+img.close()
 continuer = True
 while continuer :
     sigma = float(input("Entrez une valeur de sigma (positif (ou négatif pour sortir du programme)) pour régler l'intensité du bruit : "))
