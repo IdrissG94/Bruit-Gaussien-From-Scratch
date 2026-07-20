@@ -26,8 +26,6 @@ Script interactif : Lance main.py pour tester le bruitage sur tes propres images
 
 Notebook de démonstration : Ouvre tests.ipynb pour visualiser les tests, afficher les histogrammes de validation et comparer les images côte à côte.
 
-## Projet :
-
 # Détails Mathématiques & Algorithmiques
 Méthode de Box-Muller :  
 Si $U_1, U_2 \sim \mathcal{U}(0, 1)$ sont deux variables aléatoires indépendantes uniformes, alors les variables $Z_0$ et $Z_1$ définies par :  
