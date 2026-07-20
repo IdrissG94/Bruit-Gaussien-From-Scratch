@@ -1,3 +1,4 @@
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 # Génération et Validation de Bruit Gaussien sur Images (Méthode de Box-Muller)
 
 ## Introduction et description du projet :
